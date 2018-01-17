@@ -7,9 +7,6 @@
     padding: 1px;
 }
 
-
-
-
 /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -23,11 +20,120 @@
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+@media only screen and (min-width:606px){
+  .iconVan{
+    display:none;
+  }
+  .menu{
+    border-bottom: 0px;
+    padding:0px;
+    margin:auto;
+   }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-        float:right;
-    }
+.body1 {
+    font-size: 18px;
+    line-height: 2.5;
+    word-spacing: 5px;
+    text-align:left;
+    width:50%;
+    margin:auto;
+
+}
+.bodyimg{
+  width:33%;
+
+}
+.body{
+  display:flex
+}
+.body3{
+width:100%;
+
+}
+.body3 img:hover{
+  width:102%
+}
+.body3 img {
+  width:100%
+
+}
+.card {
+  width:350px
+}
+.foot1{
+  width:16%
+}
+li:hover{
+  color:#AC181A;
+
+}
+}
+
+
+@media only screen and (max-width:605px){
+.body2 img{
+  width:100%
+
+}
+.body4{
+  margin:auto;
+  width:70%;
+
+}
+.card{
+  width:250px;
+  margin-top:15px;
+}
+.body1{
+  font-size:10px
+
+}
+.body{
+  flex-direction: column;
+}
+.bodyimg{
+  width:70%;
+  margin:auto;
+}
+.one {
+    display:none;
+}
+.icon{
+  font-size: 20px
+}
+.body3{
+  align-items: center;
+  flex-direction: column;
+
+}
+.body3 img{
+  width:100%;
+
+}
+.body3 img:hover{
+  width:102%
+}
+.bodyCard{
+  width:60%;
+  margin-left:200px;
+
+}
+.foot{
+  flex-direction: column;
+
+}
+
+.foot1{
+  margin:auto;
+
+}
+li:hover{
+  color:#AC181A;
+
+}
+li{
+  font-weight:bold
+}
+
+
 }
